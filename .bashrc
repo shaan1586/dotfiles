@@ -114,6 +114,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ~="cd ~"
 alias rm="rm -r"
+alias cp="cp -r"
 
 mymkdir() {
 	unalias mkdir

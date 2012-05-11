@@ -1,0 +1,5 @@
+How to use:
+
+in.sh copies your current dotfiles to this directory. Do not use this unless you know what you're doing.
+
+out.sh copies the files in this directory to the directory above it. Place this repo in your home directory for best results.
