@@ -132,7 +132,7 @@ alias apt-add-repository="sudo apt-add-repository"
 alias add-apt-repository="sudo add-apt-repository"
 
 # Aesthetics
-alias ls="ls -FGhl" # F: dir: /, door: >, exe: *, FIFO: |, symlink: @, socket: =; G: no group; h: human-readable size; l: long; 
+alias ls="ls -Ghl --color=auto" # G: no group; h: human-readable size; l: long; --color=auto: color files and folders`
 
 # Environment
 export editor="vim" # like a boss
