@@ -133,7 +133,7 @@ alias add-apt-repository="sudo add-apt-repository"
 alias sudo="sudo -i" # run commands as though in a login shell
 
 # Aesthetics
-alias ls="ls -Ghl --color=auto" # G: no group; h: human-readable size; l: long; --color=auto: color files and folders`
+alias ls="ls -hl --color=auto" # h: human-readable size; l: long; --color=auto: color files and folders`
 
 # Environment
 export editor="vim" # like a boss
