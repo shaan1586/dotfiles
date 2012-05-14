@@ -125,11 +125,12 @@ mymkdir() {
 }
 alias mkdir=mymkdir
 
-# Admins
-alias apt-get="sudo apt-get -y"
+# Admin goodness
+alias apt-get="sudo apt-get -y" # always say yes to prompts
 alias service="sudo service"
 alias apt-add-repository="sudo apt-add-repository"
 alias add-apt-repository="sudo add-apt-repository"
+alias sudo="sudo -i" # run commands as though in a login shell
 
 # Aesthetics
 alias ls="ls -Ghl --color=auto" # G: no group; h: human-readable size; l: long; --color=auto: color files and folders`
