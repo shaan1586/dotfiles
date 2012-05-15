@@ -117,7 +117,7 @@ alias rm="rm -r"
 alias cp="cp -r"
 
 mymkdir() {
-	unalias mkdir
+	# unalias mkdir
 	
 	mkdir "$@"
 	cd "$@"
@@ -131,6 +131,8 @@ alias service="sudo service"
 alias apt-add-repository="sudo apt-add-repository"
 alias add-apt-repository="sudo add-apt-repository"
 alias sudo="sudo -i" # run commands as though in a login shell
+alias killall="sudo killall"
+alias kill="sudo kill"
 
 # Aesthetics
 alias ls="ls -hl --color=auto" # h: human-readable size; l: long; --color=auto: color files and folders`
