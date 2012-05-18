@@ -130,7 +130,6 @@ alias apt-get="sudo apt-get -y" # always say yes to prompts
 alias service="sudo service"
 alias apt-add-repository="sudo apt-add-repository"
 alias add-apt-repository="sudo add-apt-repository"
-alias sudo="sudo -i" # run commands as though in a login shell
 alias killall="sudo killall"
 alias kill="sudo kill"
 
