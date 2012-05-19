@@ -1,0 +1,9 @@
+# .dotfiles
+
+## How to use:
+in.sh - Copies your personal version of the dotfiles into this directory.
+
+out.sh - Copies the dotfiles in this directory to your home folder. 
+
+## Warnings
+These files are made to work on Ubuntu 12.04. .bashrc is based on the stock Ubuntu .bashrc. I advise against using this on any other platform. On other systems, please copy and paste individual lines as you need them.
