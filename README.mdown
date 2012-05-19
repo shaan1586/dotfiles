@@ -1,20 +1,21 @@
 # .dotfiles
 
 ## The files
-*in.sh* - Copies your personal version of the dotfiles into this directory.
+**in.sh** - Copies your personal version of the dotfiles into this directory.
 
-*out.sh* - Copies the dotfiles in this directory to your home folder. 
+**out.sh** - Copies the dotfiles in this directory to your home folder. 
 
-*README.mdown* - This file.
+**README.mdown** - This file.
 
-*.gitignore_global* - Common files to ignore. To use, make sure the file is in `~` and type in a shell:
+**.gitignore_global** - Common files to ignore. To use, make sure the file is in `~` and type in a shell:
+
     $ git config --global core.excludesfile ~/.gitignore_global
 
-*.tmux.conf* - Configuration file for [tmux](http://tmux.sourceforge.net/).
+**.tmux.conf** - Configuration file for [tmux](http://tmux.sourceforge.net/).
 
-*.vim/* and *.vimrc* - Configuration files for vim.
+**.vim/** and **.vimrc** - Configuration files for vim.
 
-*.bashrc* - Configuration file for bash.
+**.bashrc** - Configuration file for bash.
 
 ## Warnings
 These files are made to work on Ubuntu 12.04. .bashrc is based on the stock Ubuntu .bashrc. I advise against using this on any other platform. On other systems, please copy and paste individual lines as you need them.
